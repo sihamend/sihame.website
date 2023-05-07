@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <style>
+.cd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+    
+}
+#h1{
+    text-align: center;
+   
+}
+
+.product-image img {
+  max-width: 400px;
+  text-align: center;
+ 
+  height: 73vh;
+  
+  
+}
+
+.buy-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+ height: 50px;
+
+ 
+
+}
+.c{
+    display: flex;
+	margin-top: 20px;
+	justify-content: center;
+   
+   
+   
+}
+.buy-button:hover {
+  background-color: #45a049;
+}
+.size-buttons {
+  
+  margin-bottom: 10px;
+}
+
+.size-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: white;
+  color: #555;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.size-button:hover {
+  background-color: #e0e0e0;
+  
+}
+
+#p{
+  width: 350px;
+  color: #555;
+ 
+}
+.product-details{
+   height: 80vh;
+   width: 70vh;
+    margin-bottom: 10px;
+    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
+    0 -15px 35px rgba(0, 0, 0, 0.1),
+    0 15px 35px rgba(0, 0, 0, 0.1);
+
+}
+.kh{
+    margin-left: 40px;
+
+}
+.size-button.active {
+  background-color: black;
+  color: #fff;
+}
+#s{
+    margin-top: 16px;
+    margin-left: 20px;
+   font-size: 20px;
+   color: #838080;
+}
+
+  </style>
+</head>
+<body>
+  <div class="cd">
+    <div class="product-image">
+      <img src="pc2.jpg" alt="Product Image">
+    </div>
+    <div class="product-details">
+    <div class="kh">
+      <h2 id="h1">ROMWE T-shirt</h2>
+      <p id="p">Women's Hoodie</p>
+      <h2>Price: $9.99</h2>
+    </hr>
+    <hr>
+      <h3>Product Info:</h3>
+      <p id="p">ROMWE Grunge Punk 2 In 1 Wings Print Drop Shoulder Tee</p>
+      <hr>
+      
+      <p><b>Taille</b></p>
+      
+      <div class="size-buttons">
+        <button class="size-button">S</button>
+        <button class="size-button">M</button>
+        <button class="size-button">L</button>
+        <button class="size-button">XL</button>
+      </div>
+    </div>
+      <hr>
+      <div class="c">
+      <a href="index2.htm"><button class="buy-button">Buy Now</button></a>
+      <a href="index2.htm"><i id="s" class="far fa-heart"></i></a>
+      </div>
+    </div>
+  </div>
+  <script>
+    const sizeButtons = document.querySelectorAll('.size-button');
+
+sizeButtons.forEach(button => {
+  button.addEventListener('click', function() {   
+    sizeButtons.forEach(button => {
+      button.classList.remove('active');
+    });
+    this.classList.add('active');
+  });
+});
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<html>
+    <head></head>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <div class="div">
+            <div class="form">
+              <div class="title">Sign In</div>
+              
+              <form
+                method="post"
+                action="index.htm"
+                onsubmit="return validation();"
+              >
+                <div class="input_ep">
+                  <label for="input_text">Email</label>
+                  <div class="input_pe">
+                    <input type="text" class="input" id="input_text" />
+                  </div>
+                </div>
+                <div class="input_ep">
+                  <label for="input_password">Password</label>
+                  <div class="input_pe">
+                    <input type="password" class="input" id="input_password" />
+                  </div>
+                </div>
+                <div class="input_ep">
+                  <input type="submit" id="login_btn" class="btn disabled" value="continue" disabled="true"/>
+				  <span class="error_msg"></span>
+				</div>
+    <script src="script.js"></script> 
+    </body>
+</html>

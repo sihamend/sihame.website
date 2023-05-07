@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open sans',sans-serif;
+	background-color: #f2f2f2;
+}
+nav{
+	
+	display:flex;
+	padding: 20px;
+	background-color: #f2f2f2;
+	position: sticky;
+	top: 0;
+	justify-content: space-between;
+	flex-wrap: wrap;
+ }
+nav h1{
+	font-size: 20px;
+	
+	
+}
+
+nav .onglets{
+	margin-left: 160px;
+	flex-wrap: wrap;
+	display:flex;
+}
+
+nav .onglets .link{
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+	
+}
+#se{
+	margin-top: 10px;
+	width: 23vh;;
+	padding: 8px;
+	margin-left: 54px;
+	border: solid 1px #8e8787;
+}
+nav .onglets a{
+	
+	font-size: 18px;
+	
+    margin-left: 22px;
+	cursor: pointer;
+	width: auto;
+	
+	
+}
+nav .onglets input{
+	border: none;
+	background-color: #f2f2f2;
+	outline: none;
+	border-radius: 30px;
+	padding: 15px;
+	margin-right: 10px;
+	
+}
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+header h1{
+	font-size: 50px;
+	text-align: center;
+	width: 500px;
+	
+
+	
+}
+header button{
+   padding: 15px 20px;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.pc{
+	margin:20px;
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+
+
+}
+.hds{
+	display: flex;
+	flex-wrap: wrap;
+}
+.hds .hd{
+	margin-right: 20px;
+	cursor: pointer;
+}
+.hds .hd img{
+	width: 350px;
+}
+.hds .hd .hd-header{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.hds .hd .hd-body p{
+	margin-top:-10px;
+}
+.pc .video{
+	width: 100%;
+	margin-top: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.pc .video iframe{
+	width: 40%;
+	height: 240px;
+	border: none;
+	border-radius: 10px;
+}
+footer{
+	background-color:#000;
+	color:#fff;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 100px;
+}
+footer .social-media{
+  display: flex;
+}
+footer .social-media p{
+	margin-right: 15px;
+	border: 1px solid #fff;
+	width: 20px;
+	text-align: center;
+	border-radius: 100px;
+	padding: 5;
+	
+
+}
+nav .onglets .link:hover{
+	color:#555;
+	border-radius: 5px;
+	
+	border-bottom: 2px solid #555;
+}
+
+.social-media{
+	cursor: pointer;
+	margin-left: 30px;
+}
+footer div a{
+	margin-left: 10px;
+	color: #fff;
+	margin-top: 15px;
+}
+#s{
+	color: rgb(65, 63, 63);
+	margin-left: 32px;
+}
+#h{
+	color: black;
+
+
+}
+#im{
+	width: 22;
+	height: 25px;
+	margin-left: 24vh;
+	margin-top: 12px;
+	position: sticky;
+	
+
+}
+#mr{
+    color: red;
+	margin-left: 59px;
+    position: absolute;
+}
+.hu{
+	position: absolute;
+	
+}
+

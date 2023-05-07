@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Jost', sans-serif;
+	outline: none;
+	color: #866973;
+}
+
+body{
+	background: linear-gradient(to top,#59662f,#283618,#2b2f27);
+}
+
+.div{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form{
+	width: 500px;
+	height: 400px;
+	background: #fff;
+	padding: 35px 50px;
+	border-radius: 2px;
+}
+
+.form .title{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 650;
+	font-size: 24px;
+}
+
+.form .input_ep{
+	margin-bottom: 20px;
+	width: 400px;
+	position: relative;
+}
+
+.form .input_ep:last-child{
+	margin-bottom: 0;
+}
+
+.form .input_ep label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form .input_ep input{
+	padding: 15px;
+	width: 100%;
+	border: 1px solid transparent;
+	font-size: 16px;
+	border-radius: 3px;
+}
+
+.form .input_ep .input{
+	background: #f5f4f4;
+	padding-right: 35px;
+}
+
+
+.form .input_ep .input:focus{
+	border-color: #1dbf73;
+}
+
+.form .input_ep .input_pe{
+	position: relative;
+}
+
+.form .input_ep .btn{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.form .input_ep .btn.disabled{
+	background: #727272;
+}
+
+.form .input_ep .btn.enabled{
+	background: #59662f;
+	cursor: pointer;
+	margin-bottom: 22px;
+}
+
+.form .input_ep .error_msg{
+	font-size: 15px;
+	
+	color: #f74040;
+	
+}
